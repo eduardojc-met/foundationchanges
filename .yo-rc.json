@@ -1,0 +1,66 @@
+{
+  "generator-jhipster": {
+    "skipJhipsterDependencies": true,
+    "blueprints": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.4.0"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "@scfhq/generator-jhipster-foundation",
+        "version": "2.4.0"
+      }
+    ],
+    "applicationType": "monolith",
+    "baseName": "testgatling",
+    "jhipsterVersion": "7.3.0",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": [],
+    "pages": [],
+    "creationTimestamp": 1654087477221,
+    "configurationType": "configFiles",
+    "scfConfigurationServer": false,
+    "mailType": "mailLocal",
+    "scfMailServer": false,
+    "reactive": false,
+    "authenticationType": "jwt",
+    "authenticationTypeSaml": false,
+    "packageName": "com.santander.app",
+    "serverPort": "8080",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "buildTool": "maven",
+    "serverSideOptions": [],
+    "websocket": false,
+    "searchEngine": false,
+    "messageBroker": false,
+    "enableSwaggerCodegen": false,
+    "serviceDiscoveryType": false,
+    "useSplitInfreastructure": true,
+    "clientFramework": "react",
+    "useGReCaptcha": false,
+    "withAdminUi": true,
+    "useExportFunction": false,
+    "enableTranslation": false,
+    "nativeLanguage": "es",
+    "jwtSecretKey": "Y2I0ZDVjNTc0NGNkN2Y5MTc3ZGRmYmY0YjlkYmViMTg3YjI0Yzc0YmNmMmQ1ODJmMDEwZjg2ZWVmNjc0ZTNhN2Y5OWNmMjRhZGE2MzgzNGZlNTNlMzA2NmU3NzE0OTIzNGI4ZjQwZGNmZjY4N2UxMWMxMzgzNmY0MDY2OGQxMmM=",
+    "devServerPort": 9060,
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "enableGradleEnterprise": false,
+    "languages": ["en", "fr"]
+  }
+}
