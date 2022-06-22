@@ -10,7 +10,7 @@ COPY ["package.json",".npmrc","/webpack/webpack.prod.js", "./"] .
 COPY . .
 RUN rm -rf ./target/*.jar
 RUN rm -rf ./target/
-RUN rm -rf ./src/
+
 RUN npm config set strict-ssl false
 #RUN npm install
 #RUN CI=true npm test
