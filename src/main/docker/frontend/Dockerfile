@@ -15,7 +15,7 @@ RUN npm config set strict-ssl false
 #RUN npm install
 #RUN CI=true npm test
 RUN npm install && npm run webapp:build:prod
-RUN rm -rf ./src/
+#RUN rm -rf ./src/
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:alpine
